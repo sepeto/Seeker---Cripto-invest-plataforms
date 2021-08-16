@@ -1,0 +1,75 @@
+#divinversion,#divtiempo{
+    width: 30%;
+    display:inline-block;
+    margin-right: 15%;
+    padding:10px;
+}
+h3,p{
+    display:inline;
+    float:left;
+}
+
+
+#divinversion input,#divtiempo input{
+    width:100px;
+}
+
+#coinvalue{
+    width:60%;
+    float:left;
+}
+#valuecoin1{
+    width:20%;
+    float:left;
+    clear:both;
+    
+}
+#valuecoin2{
+    
+    width:20%;
+    float:left;
+}
+
+#valor1,#valor2{
+    width:4em;
+}
+
+.calculadora{
+    float:left;
+    padding:2%;
+    width:90%;
+}
+
+.grafica{
+    float:left;
+    width:90%;
+}
+
+
+input.benefmes, input.valorcoin{
+    width:30px;
+}
+
+/* zona de los controles de cada plataforma*/
+.calczone{
+    border-radius: 10px;
+    border:1px solid black;
+    padding: 10px;
+    margin:15px;
+    background-color: rgba(205, 235, 255, 0.568);
+    box-shadow: 10px 10px 5px darkgray;
+}
+
+.calczone:hover{ 
+    transition: 1s;
+    box-shadow: -10px -10px 30px darkgray;
+}
+
+#calculo{
+    margin:auto auto
+}
+#calculo td:nth-child(1){width: 200px;}
+
+#calculo td{width: 60px;}
+
+

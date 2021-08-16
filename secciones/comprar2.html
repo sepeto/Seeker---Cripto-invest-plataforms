@@ -1,0 +1,123 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<style>
+#comprar{
+    text-align:center;
+    width:80%;
+    height:40%;
+    background-color: orange;
+    border-radius:20px;
+
+
+}
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery {
+  overflow: hidden;
+}
+
+.gallery .owl-nav, .gallery .owl-dots {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.gallery .owl-item {
+  transition: 0.3s ease-in-out;
+}
+
+.gallery .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #eff2f8 !important;
+}
+
+.gallery .owl-dot.active {
+  background-color: #5777ba !important;
+}
+
+.gallery .gallery-carousel {
+  padding-top: 30px;
+}
+
+.gallery .gallery-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+@media (min-width: 992px) {
+  .gallery .gallery-carousel .center {
+    border: 6px solid #5777ba;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.2);
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div id="comprar">
+    <h1> Conversor de criptomonedas</h1>
+    <div id="calcomprar">
+        <h2> Comprar - Vender</h2>
+        <h3>BTC - ETH - XRP - USDT</h3>
+        <form>
+            <input type="number" id="euros" name="euros"> Euros <br> <br>
+            <input type="number" id="btc" name="btc"> BTC <br> <br>
+            <input type="submit">
+        </form>
+    </div>    
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('#euros').change(function(){
+            alert('euros change');
+            $('#btc').val(2);
+            //$(this).val();
+        })
+    })
+</script>
+
+   <!-- ======= Gallery Section ======= -->
+   <section id="gallery" class="gallery">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Gallery</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="owl-carousel gallery-carousel" data-aos="fade-up">
+        <a href="assets/img/gallery/gallery-1.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-1.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-2.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-2.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-3.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-3.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-4.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-4.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-5.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-5.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-6.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-6.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-7.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-7.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-8.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-8.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-9.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-9.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-10.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-10.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-11.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-11.png" alt=""></a>
+        <a href="assets/img/gallery/gallery-12.png" class="venobox" data-gall="gallery-carousel"><img src="assets/img/gallery/gallery-12.png" alt=""></a>
+      </div>
+
+    </div>
+  </section><!-- End Gallery Section -->
+
+
+
+</body>
+</html>

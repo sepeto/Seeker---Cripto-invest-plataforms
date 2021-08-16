@@ -1,0 +1,194 @@
+@media (min-width:990px){ 
+    .inversiones{
+        margin: 0.3vw;
+        padding:0.3vw;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 10px 15px 20px 0 rgba(0, 0, 0, 0.19);
+        display:inline-block; 
+       /* background-color: #b9b9b9;*/
+        width: 50vw;
+        height:15vw;
+        background-color:#ffffff;
+    }
+
+    .inversiones:hover{
+        transform:scale(1.15);
+        transition: 0.5s;
+
+    }
+    
+    .titulares{
+        float:left;
+        background-color:#ffffff;
+        width: 100%;
+        height:8vw;
+        
+    }
+    .imagen{
+        float: left;
+        background-color: #e6e6e6;
+        width: 15%;
+        height:130px;
+    }
+    .imagen img{
+        width:100%;
+    }
+
+    .filas2{
+        float:left;
+        background-color: #ffffff;
+        width: 70%;
+        height:130px;
+    }
+
+   
+    .titulo{
+        float: left;
+        background-color: #ffffff;
+        width: 100%;
+        height:65px;
+    }
+    .valoracion{ 
+        float: left;
+        background-color: #ffffff;
+        width: 15%;
+        height:130px;
+    }
+  
+    .infobasic{
+        padding-left:0.5vw;
+        font-size: 0.8vw;
+        float: left;
+        background-color:#ffffff;
+        width: 100%;
+        height:65px;
+    }
+    .basic{
+        float:left;
+        width:70%;
+        height: 65px;
+        background-color: #ffffff;
+    }
+    .estado{
+        float:left;
+        width:30%;
+        height: 65px;
+        background-color: #ffffff;
+    }
+    .estado img{
+        height: 10px;
+    }
+
+    .contenido{
+        float: left;
+        background-color: #ffffff;
+        width: 100%;
+        height:6vw;
+    }
+
+    .datos{
+        overflow: hidden;
+        font-size: 0.7vw;
+        padding:0.3vw;
+        float:left;
+        width: 30%;
+        height: 100%;
+    }
+}
+
+@media (max-width:990px){ 
+    
+    .inversiones{
+        margin: 2%;
+        margin-bottom: 2vw;
+        padding:0.3vw;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 10px 15px 20px 0 rgba(0, 0, 0, 0.19);
+        display:inline-block; 
+       /* background-color: #b9b9b9;*/
+        width: 95%;
+        height:40vw;
+        background-color:#ffffff;
+    }
+
+
+    .titulares{
+        float:left;
+        background-color:#ffffff;
+        width: 100%;
+        height:15vw;
+        
+    }
+    .imagen{
+        float: left;
+        background-color: #e6e6e6;
+        width: 15%;
+        height:130px;
+    }
+    .imagen img{
+        width:100%;
+    }
+
+    .filas2{
+        float:left;
+        background-color: #ffffff;
+        width: 70%;
+        height:70px;
+    }
+
+   
+    .titulo{
+        float: left;
+        background-color: #ffffff;
+        width: 100%;
+        height:65px;
+    }
+    .valoracion{ 
+        float: left;
+        background-color: #ffffff;
+        width: 15%;
+        height:130px;
+    }
+  
+    .infobasic{
+        padding-left:0.5vw;
+        font-size: 0.8vw;
+        float: left;
+        background-color:#ffffff;
+        width: 100%;
+        height:20vw;
+    }
+    .basic{
+        float:left;
+        width:70%;
+        height: 90px;
+        background-color: #ffffff;
+    }
+    .estado{
+        float:left;
+        width:30%;
+        height: 65px;
+        background-color: #ffffff;
+    }
+    .estado img{
+        height: 10px;
+    }
+
+    .contenido{
+        float: left;
+        font-size:0.2vw;
+        background-color: #ffffff;
+        width: 100%;
+        height:20vw;
+    }
+
+    .datos{
+        overflow: hidden;
+        font-size: 2vw;
+        
+        padding:0.3vw;
+        float:left;
+        width: 30%;
+        height: 100%;
+    }
+}

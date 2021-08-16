@@ -1,0 +1,54 @@
+.pago{
+    width:30%
+}
+
+.agregar{
+        padding:1%;
+        margin: 2%
+    }
+
+    .agregar select  {
+        
+        margin:1% auto;
+        padding: 10px 20px;
+
+        width:100%;
+    }
+
+    .agregar input{
+        margin:1% auto;
+        padding: 10px 20px;
+        width:60%;
+    }
+
+    .agregar .checkmark #btc{
+
+        width: 30%;
+    }
+
+    .agregar .buttonform{
+        margin:1% auto;
+        padding: 10px 20px;
+        margin:auto auto;
+        width:100%;
+    }
+
+    .agregar input[type="date"]{
+        width:20%;
+    }
+
+    .fecha{
+        text-align: center;
+        margin: auto auto;
+    }
+
+    span.fechatitle{
+        margin: 0 20px;
+        color:black;
+    }
+
+h1{
+    padding: 10px 10px;
+    color:red;
+    text-align: center;
+}

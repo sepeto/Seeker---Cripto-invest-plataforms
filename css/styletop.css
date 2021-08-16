@@ -1,0 +1,97 @@
+@media screen and (min-width: 1200px) {  
+    
+    nav li a{
+        color:white;
+        font-size: 1.3em;    
+    }
+    nav li{
+        color:white;
+        width:8%;     
+        display:inline-block;
+        text-align: center;
+        padding:20px 0 20px 0; 
+    }
+    nav li:nth-child(2){
+        color:white;
+        width:20%;     
+        display:inline-block;
+        text-align: center;
+        padding:20px 0 20px 0; 
+        }
+    
+} 
+@media screen and (max-width: 1200px) {  
+    nav li a{
+        color:white;
+        font-size: 0.7em;    
+    }
+    nav li{
+        color:white;
+        width:13%;     
+        display:inline-block;
+        text-align: center;
+        padding:1vw 0 1vw  0; 
+    }
+    nav li:nth-child(2){
+        color:white;
+        width:14%;     
+        display:inline-block;
+        text-align: center;
+        padding:20px 0 20px 0; 
+        }
+    nav ul{
+        float:right;
+        padding: 0;
+    }
+    
+} 
+
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+#calculo table, td, th{
+    border: 1px solid black;
+}
+
+/*Falta por pulir el logo y su encuadre*/
+.logo{
+    display:none;
+    transform: scale(0.5,0.5); 
+    width: 40%;
+}
+
+
+
+
+nav li:hover{
+   background-color: rgb(255, 255, 255);
+   color: blue;
+   transition:0.5s
+}
+nav a{
+    color:white;
+ }
+ nav a:hover{
+    color:blue;
+ }
+header img{
+    padding:10px;
+}
+
+.slider img{
+   
+    width:100%;
+    clear:both;  
+}
+.slider .filtro{
+    width:100%;
+    clear:both;  
+    position: absolute;
+    z-index: 1;
+    opacity:0.9;
+}
+
+

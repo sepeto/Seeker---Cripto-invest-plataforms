@@ -1,0 +1,134 @@
+
+
+
+.ordenar {
+    text-align: center;
+}
+
+.ordenar select{
+    margin: 1%;
+    width: 30%;
+}
+ /*
+body{
+    background-image: url('img/fondo.jpg');
+}*/
+
+.fondo{
+    
+   width:200%;
+   left:-25%;
+    position:absolute;
+    z-index: 0;
+    opacity:0.2;
+}
+
+/*
+.fondo{
+    width:100%;
+    position: absolute;
+    opacity:0.2;
+}*/
+
+
+@media (min-width:990px){ 
+    .filtros select  {
+        float:right;
+        margin-bottom: 1vw;
+        width:80%;
+    }
+
+    .filtros input{
+        float:right;
+        margin-bottom: 1vw;
+        width:80%;
+    }
+
+    .buttonform{
+        float:right;
+        margin-bottom: 1vw;
+        width:80%;
+    }
+}
+
+@media (max-width:990px){ 
+    .filtros select  {
+       text-align: center;
+        margin: 10px;
+        width:80%;
+    }
+
+    .filtros input{
+        text-align: center;
+        margin: 10px;
+        width:80%;
+    }
+
+    .buttonform {
+        text-align: center;
+        margin: 10px;
+        width:80%;
+    }
+}
+
+
+form{
+    margin: 0 auto;
+}
+
+
+
+.filtros{
+    padding:50px;
+}
+
+.plats{
+    padding:2%;
+}
+
+h2{
+    padding: 0 4px;
+    background-color: dodgerblue;
+    color:white;
+}
+
+div.plat{
+    margin:10px 0;
+    border:1px solid rgb(206, 206, 206);
+    padding: 0px 15px;
+    background-color: rgba(212, 211, 211, 0.856);
+}
+
+.periodos{
+    color: blue;
+}
+
+span{
+    color:rgb(16, 173, 76)
+}
+
+.subimg img{
+    margin: auto auto;
+    width:100%;
+}
+
+.info {
+     
+    width: 50%;
+    height: 80%;
+}
+.plat .button{
+    margin: 0 auto 10px auto;
+    width: 35%;
+    height: 70px;
+}
+
+.banners{
+padding:5%;
+float:left;
+}
+
+.banners img{
+    margin:1vw;
+    width:70%;
+}
